@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Intro to Code for MBAs — Class 9 Testing Lab",
   "scripts": {
+    "start": "serve -s . -l 5000 --no-clipboard",
     "test": "jest --watchAll=false --verbose"
   },
   "devDependencies": {
